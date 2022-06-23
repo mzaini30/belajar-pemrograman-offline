@@ -13,3 +13,4 @@ node_modules
 .gitsecret/keys/random_seed
 !*.secret
 edit.md
+tambahan/kunci.jks

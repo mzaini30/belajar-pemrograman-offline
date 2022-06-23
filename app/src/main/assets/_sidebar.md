@@ -1,0 +1,9 @@
+- [Pendahuluan](/)
+- Text Editor
+  - [Memilih Text Editor](/text-editor/memilih)
+- JavaScript
+  - [Variabel pada JavaScript](/javascript/variabel)
+  - [Fungsi pada JavaScript](/javascript/fungsi)
+- TypeScript
+  - [Apa Itu TypeScript?](/typescript/apaItu)
+  - [Menjalankan TypeScript](/typescript/menjalankan)

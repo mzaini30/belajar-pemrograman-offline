@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "release": "bumpp --tag --commit --push",
-    "prettier": "prettier --write app/src/main/assets/docs/.vitepress/**/*.{css,ts}"
+    "prettier": "prettier --write app/src/main/assets/docs/.vitepress/**/*.{css,ts} app/src/main/assets/.docs/.vitepress/**/*.{css,ts}"
   },
   "simple-git-hooks": {
     "pre-commit": "npm run prettier && git secret hide"
