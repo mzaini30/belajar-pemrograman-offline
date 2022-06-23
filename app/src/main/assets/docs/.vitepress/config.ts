@@ -1,6 +1,4 @@
 import { defineConfig } from "vitepress";
-import javascript from "./javascript";
-import textEditor from "./textEditor";
 
 export default defineConfig({
   title: "Belajar Pemrograman",
@@ -30,8 +28,34 @@ export default defineConfig({
         text: "Beranda",
         items: [{ text: "Permulaan", link: "/index.html" }],
       },
-      textEditor,
-      javascript,
+      {
+        text: "Text Editor",
+        collapsible: true,
+        items: [
+          {
+            text: "Memilih Text Editor",
+            link: "/text-editor/memilih",
+          },
+        ],
+      },
+      {
+        text: "JavaScript",
+        collapsible: true,
+        items: [
+          {
+            text: "Variabel",
+            link: "/javascript/variabel",
+          },
+          {text: 'Fungsi', link: '/javascript/fungsi'}
+        ],
+      },
+      {
+        text: 'TypeScript',
+        collapsible: true,
+        items: [
+          {text: 'Apa Itu?', link: '/typescript/apaItu'}
+        ]
+      }
     ],
   },
 });
