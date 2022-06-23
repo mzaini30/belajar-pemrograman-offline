@@ -1,0 +1,28 @@
+{
+  "name": "galau",
+  "version": "1.0.0",
+  "description": "Bring Vue SPA to Android app.",
+  "main": "index.js",
+  "scripts": {
+    "release": "bumpp --tag --commit --push",
+    "prettier": "prettier --write app/src/main/assets/docs/.vitepress/**/*.{css,ts}"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run prettier && git secret hide"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzaini30/galau.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzaini30/galau/issues"
+  },
+  "homepage": "https://github.com/mzaini30/galau#readme",
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "prettier": "^2.7.1"
+  }
+}
