@@ -46,16 +46,14 @@ export default defineConfig({
             text: "Variabel",
             link: "/javascript/variabel",
           },
-          {text: 'Fungsi', link: '/javascript/fungsi'}
+          { text: "Fungsi", link: "/javascript/fungsi" },
         ],
       },
       {
-        text: 'TypeScript',
+        text: "TypeScript",
         collapsible: true,
-        items: [
-          {text: 'Apa Itu?', link: '/typescript/apaItu'}
-        ]
-      }
+        items: [{ text: "Apa Itu?", link: "/typescript/apaItu" }],
+      },
     ],
   },
 });
