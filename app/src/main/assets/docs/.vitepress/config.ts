@@ -31,28 +31,23 @@ export default defineConfig({
       {
         text: "Text Editor",
         collapsible: true,
-        items: [
-          {
-            text: "Memilih Text Editor",
-            link: "/text-editor/memilih",
-          },
-        ],
+        items: [{ text: "Memilih Text Editor", link: "/text-editor/memilih" }],
       },
       {
         text: "JavaScript",
         collapsible: true,
         items: [
-          {
-            text: "Variabel",
-            link: "/javascript/variabel",
-          },
-          { text: "Fungsi", link: "/javascript/fungsi" },
+          { text: "Variabel JavaScript", link: "/javascript/variabel" },
+          { text: "Fungsi JavaScript", link: "/javascript/fungsi" },
         ],
       },
       {
         text: "TypeScript",
         collapsible: true,
-        items: [{ text: "Apa Itu?", link: "/typescript/apaItu" }],
+        items: [
+          { text: "Apa Itu TypeScript?", link: "/typescript/apaItu" },
+          { text: "Menjalankan TypeScript", link: "/typescript/menjalankan" },
+        ],
       },
     ],
   },
