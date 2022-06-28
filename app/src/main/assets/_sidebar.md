@@ -3,6 +3,7 @@
   - [Memilih Text Editor](/text-editor/memilih)
 - JavaScript
   - [Variabel pada JavaScript](/javascript/variabel)
+  - [String pada JavaScript](/javascript/string)
   - [Fungsi pada JavaScript](/javascript/fungsi)
 - TypeScript
   - [Apa Itu TypeScript?](/typescript/apaItu)

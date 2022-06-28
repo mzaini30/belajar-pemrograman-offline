@@ -7,14 +7,14 @@ Ada dua variabel yang digunakan pada JavaScript yaitu `let` dan `const`.
 Contoh dari `let` itu seperti ini:
 
 ```javascript
-let nama = 'Zen'
-nama = 'Maryam'
-console.log(nama)
+let nama = "Zen";
+nama = "Maryam";
+console.log(nama);
 ```
 
 Lalu, contoh dari `const` itu seperti ini:
 
 ```javascript
-const nama = 'Zen'
-console.log(nama)
+const nama = "Zen";
+console.log(nama);
 ```

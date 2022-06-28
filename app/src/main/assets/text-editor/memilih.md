@@ -2,7 +2,7 @@
 
 Untuk text editor, ada dua yang jadi rekomendasi. Yaitu Sublime Text Editor dan Visual Studio Code.
 
-Untuk fitur yang lebih lengkap, bisa memilih Visual Studio Code. 
+Untuk fitur yang lebih lengkap, bisa memilih Visual Studio Code.
 
 Nah, apa pertimbangan memilih antara Sublime maupun VS Code? Pertimbangannya adalah RAM.
 
